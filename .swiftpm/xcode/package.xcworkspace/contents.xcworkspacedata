@@ -2,6 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Tisander.xcodeproj">
+      location = "self:"
+      assignedFileDataType = "com.apple.application-bundle">
    </FileRef>
 </Workspace>
