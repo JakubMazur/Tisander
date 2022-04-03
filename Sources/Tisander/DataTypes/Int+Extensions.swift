@@ -12,5 +12,5 @@ extension Int: Value, JSONStringRepresentable {
 	 Return the string representation of this integer
 	 - returns: integer as string
 	 */
-	func stringRepresentation() -> String { return String(self) }
+	public func stringRepresentation() -> String { return String(self) }
 }

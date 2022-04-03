@@ -9,11 +9,11 @@ import Foundation
 
 extension JSON {
 	/// Object element representation
-	struct ObjectElement {
+	public struct ObjectElement {
 		/// Object element key
-		let key: String
+		public let key: String
 		/// Object element value
-		let value: Value & JSONStringRepresentable
+		public let value: Value & JSONStringRepresentable
 	}
 }
 
@@ -22,5 +22,5 @@ extension JSON.ObjectElement: JSONElement, JSONStringRepresentable {
 	 Return the string representation of this object
 	 - returns: string representation of this object with a "key":value
 	 */
-	func stringRepresentation() -> String { return "\"\(self.key)\":\(self.value.stringRepresentation())" }
+	public func stringRepresentation() -> String { return "\"\(self.key)\":\(self.value.stringRepresentation())" }
 }

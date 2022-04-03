@@ -12,5 +12,5 @@ extension Bool: Value, JSONStringRepresentable {
 	 Return the string representation of this boolean
 	 - returns: either 'true' or 'false'
 	 */
-	func stringRepresentation() -> String { return self ? "true" : "false" }
+	public func stringRepresentation() -> String { return self ? "true" : "false" }
 }

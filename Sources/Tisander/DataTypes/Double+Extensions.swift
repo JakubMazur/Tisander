@@ -12,5 +12,5 @@ extension Double: Value, JSONStringRepresentable {
 	 Return the string representation of this double precision floating point number
 	 - returns: double as string. Uses default system number formatter
 	 */
-	func stringRepresentation() -> String { return String(self) }
+	public func stringRepresentation() -> String { return String(self) }
 }

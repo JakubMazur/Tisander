@@ -12,5 +12,5 @@ extension String: Value, JSONStringRepresentable {
 	 Return the string
 	 - returns: string in quotes
 	 */
-	func stringRepresentation() -> String { return "\"\(self)\"" }
+	public func stringRepresentation() -> String { return "\"\(self)\"" }
 }

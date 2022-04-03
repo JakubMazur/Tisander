@@ -9,7 +9,7 @@ import Foundation
 
 extension JSON {
 	/// Representation for null value
-	class NULL { }
+	public class NULL { }
 }
 
 extension JSON.NULL: Value, JSONStringRepresentable {
@@ -17,5 +17,5 @@ extension JSON.NULL: Value, JSONStringRepresentable {
 	 Return the string representation of this null
 	 - returns: "null"
 	 */
-	func stringRepresentation() -> String { return "null" }
+	public func stringRepresentation() -> String { return "null" }
 }
